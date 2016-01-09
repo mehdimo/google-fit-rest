@@ -5,7 +5,7 @@ angular.module('starter.controllers', [])
 	
 	// You need to get your own OAuth token, described in Readme file.
 	var authCode = 'Bearer '; 
-	authCode += 'ya29.ZAL1gK3z431gfk5II9GRnO6xyAT5EMe17MS6hz-m23oVCVNJI7kwfAxFxq_vpsAJoFABPQ';
+	authCode += 'ya29.YourOAuthToken';
 	
 	$scope.getDatasource = function(){
 		var req_url = "https://www.googleapis.com/fitness/v1/users/me/dataSources";
