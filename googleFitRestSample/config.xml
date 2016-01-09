@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<widget id="com.ionicframework.googlefitrestsample887264"
+	version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+	<name>googleFitRestSample</name>
+	<description>
+		An Ionic Framework and Cordova project.
+	</description>
+	<author email="you@example.com" href="http://example.com.com/">
+		Your Name Here
+	</author>
+	<content src="index.html" />
+	<access origin="*" />
+	<preference name="webviewbounce" value="false" />
+	<preference name="UIWebViewBounce" value="false" />
+	<preference name="DisallowOverscroll" value="true" />
+	<preference name="android-minSdkVersion" value="16" />
+	<preference name="BackupWebStorage" value="none" />
+	<feature name="StatusBar">
+		<param name="ios-package" value="CDVStatusBar" onload="true" />
+		<param name="android-package" value="org.apache.cordova.statusbar.StatusBar" />
+		<param name="onload" value="true" />
+		<param name="id" value="cordova-plugin-statusbar" />
+	</feature>
+	<feature name="Console">
+		<param name="id" value="cordova-plugin-console" />
+	</feature>
+	<feature name="Device">
+		<param name="android-package" value="org.apache.cordova.device.Device" />
+		<param name="id" value="cordova-plugin-device" />
+	</feature>
+	<feature name="SplashScreen">
+		<param name="android-package" value="org.apache.cordova.splashscreen.SplashScreen" />
+		<param name="onload" value="true" />
+	</feature>
+	<feature name="Splashscreen">
+		<param name="id" value="cordova-plugin-splashscreen" />
+	</feature>
+	<feature name="Whitelist">
+		<param name="android-package" value="org.apache.cordova.whitelist.WhitelistPlugin" />
+		<param name="onload" value="true" />
+		<param name="id" value="cordova-plugin-whitelist" />
+	</feature>
+	<feature name="Keyboard">
+		<param name="android-package" value="io.ionic.keyboard.IonicKeyboard" />
+		<param name="onload" value="true" />
+		<param name="id" value="ionic-plugin-keyboard" />
+	</feature>
+</widget>

@@ -1,0 +1,18 @@
+<ion-view view-title="Data Points">
+  <ion-content>
+	<div>
+		<button class="button" ng-click="getDatapoint()">
+	  		Get DataPoint
+		</button>
+		<button class="button" ng-click="sendDatapoint()">
+		  send dataPoint
+		</button>
+	</div>
+	<div>
+		Number of data points: {{dataPoints.length}}
+	    <ul ng-repeat="dp in dataPoints" class="list">
+	   		<li>+ {{dp}}</li>
+	    </ul>
+	</div>
+  </ion-content>
+</ion-view>

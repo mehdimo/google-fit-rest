@@ -1,0 +1,29 @@
+<ion-view view-title="Data Source">
+  <ion-content class="padding">
+    <h2>Data Source Management</h2>
+    <div>
+
+		<div>
+		type: <select>
+		<option>
+		 com.google.step_count.delta
+		 </option>
+		  </select>
+		 <button class="button" ng-click="postDatasource()">
+		  Create DataSource
+		</button>
+		</div>
+    </div>
+    <div>
+	List of Datasources:
+	<br>
+	    	<button class="button" ng-click="getDatasource()">
+	  		Get DataSources
+		</button>
+		Number of DataSources: {{dsnames.length}}
+	    <ul ng-repeat="ds in dsnames" class="list">
+	   		<li>+ {{ds}}</li>
+	    </ul>
+	</div>
+  </ion-content>
+</ion-view>
